@@ -6,6 +6,8 @@ import { routes } from "./features/routes";
 
 dotenv.config();
 
+
+
 if (!process.env.PORT) {
   throw new Error("Missing required environment variables");
 }
